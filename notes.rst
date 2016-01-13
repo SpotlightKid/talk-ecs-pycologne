@@ -70,7 +70,7 @@ Komponenten
 * Sind reine Datencontainer
 * Enthalten keine oder kaum Programmlogik
 * Sind unabhängig von anderen Komponenten
-* Als *Struct* oder einfache Klasse nur mit datenattributen implementiert
+* Als *Struct* oder einfache Klasse nur mit Datenattributen implementiert
 
 ----
 
@@ -203,4 +203,3 @@ Python-Programmierung & Open Source/Linux-Beratung
 
 chris@chrisarndt.de
 0176-28259175
-
