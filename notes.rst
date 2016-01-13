@@ -75,6 +75,18 @@ Komponenten
 
 ----
 
+Beispiel
+--------
+
+.. code::
+
+    class Position:
+        def __init__(self, x, y):
+            self.x = x
+            self.y = y
+
+----
+
 Entities und Components
 -----------------------
 
@@ -96,6 +108,22 @@ Systeme
 
 ----
 
+
+Beispiel
+--------
+
+.. code::
+
+    class System:
+        def __init__(self, world):
+            self.world = world
+
+        def process(self):
+            for entity, comp1, comp2 in world.get_components(Component1, Component2):
+                do_something(entity, comp1, comp2)
+
+----
+
 Welt
 ----
 
@@ -103,6 +131,20 @@ Welt
 * Verknüpft diese mit *Komponenten*
 * Enthält alle *Systeme*, die auf die Entitäten und Komponenten wirken
 * Ruft alle Systeme der Reihe nach in jeder Iteration der Simulation auf
+
+----
+
+Struktur
+--------
+
+.. code::
+
+    class World:
+        ...
+
+        def step(self):
+            for system in self.systems:
+                system.process()
 
 ----
 
