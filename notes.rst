@@ -90,7 +90,7 @@ Systeme
 * Iterieren in jedem Simulationsschritt über alle diese Entitäten
 * Verändern ggf. die Komponentendaten und/oder lösen aufgrund dieser bestimmte
   Aktionen aus
-* Z.B. Veränderung der Position eines Objekts auf bais siener Geschwindigkeit,
+* Z.B. Veränderung der Position eines Objekts auf Basis seiner Geschwindigkeit,
   Senden einer Nachricht and Event Listener bei Kollisionen, usw.
 
 
@@ -124,4 +124,13 @@ Danke für die Aufmerksamkeit!
 
 Slides:
     http://github.com/SpotlightKid/talk-ecs-pycologne
+
+
+Python-Programmierung & Open Source/Linux-Beratung
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Suche Aufträge!**
+
+chris@chrisarndt.de
+0176-28259175
 
