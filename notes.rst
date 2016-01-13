@@ -11,7 +11,6 @@ Entity-Component-Systems
 Folien & Beispiele:
     http://github.com/SpotlightKid/talk-ecs-pycologne
 
-
 ----
 
 
@@ -95,6 +94,26 @@ Entities und Components
 
 ----
 
+Implementierung in Python
+-------------------------
+
+.. code::
+
+
+    entities = {
+        <entity ID #1>: {
+            Component1: <component1 instance>,
+            Component2: <component2 instance>
+        },
+        <entity ID #2>: {
+            Component1: <component1 instance>,
+            Component3: <component3 instance>
+        }
+    }
+
+
+----
+
 Systeme
 -------
 
@@ -160,6 +179,15 @@ Auf Github:
 
 
 ----
+
+Beispielprogramme
+-----------------
+
+* `headless_example.py`
+* `pyglet_example.py`
+
+----
+
 
 Danke für die Aufmerksamkeit!
 -----------------------------
